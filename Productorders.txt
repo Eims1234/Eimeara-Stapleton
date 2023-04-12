@@ -1,0 +1,80 @@
+create table dbo.Product
+(
+    id int primary key identity(1,1),
+	ProductName varchar (50),
+
+	)
+
+	alter table dbo.Product
+	add Price float;
+
+	select * from dbo.Product
+	insert into dbo.Product (ProductName, Price) values ('Electric Car', 5550.50);
+	insert into dbo.Product (ProductName, Price) values ('Green Gps', 45.0);
+	insert into dbo.Product (ProductName, Price) values ('Eco Glow Makeup', 255.60);
+	insert into dbo.Product (ProductName, Price) values ('Bamboo Toilet rolls',22.00);
+	insert into dbo.Product (ProductName, Price) values ('Wooden Cutlery', 19.50);
+	insert into dbo.Product(ProductName, Price) values ('Recyled rug', 300.50);
+	insert into dbo.Product (ProductName, Price) values ('Recyled blouse', 42.50);
+	insert into dbo.Product (ProductName, Price) values ('Led bulb', 75.0);
+	insert into dbo.Product (ProductName, Price) values ('Water Bottle', 10.50);
+	insert into dbo.Product (ProductName, Price) values ('Recycled batteries', 9.50);
+
+	Create table dbo.Orderss
+	(
+	     OrderId int primary key identity(1,1),
+		 OrderDate Datetime,
+	     CustomerId int,
+		 ProductId int,
+  )
+  
+
+		 select * from dbo.Orderss
+		 select * from dbo.Customers
+		 select * from dbo.Product
+
+		
+	insert into Orderss(OrderDate,CustomerID,ProductID) Values (GetDate
+	(),92,1);
+	insert into Orderss(OrderDate,CustomerID,ProductID) Values (GetDate (),
+	93,3);
+	insert into Orderss(OrderDate, CustomerID,ProductID) Values (GetDate (),
+	94,2);
+	insert into Orderss(OrderDate, CustomerID, ProductID) Values (GetDate (),
+	95,10);
+	insert into Orderss(OrderDate, CustomerID, ProductID)  Values (GetDate (),
+	96,9);
+	insert into Orderss(OrderDate, CustomerID, ProductID) Values (GetDate (),
+	97,4);
+	insert into Orderss(OrderDate, CustomerID, ProductID) Values (GetDate (),
+	98,5);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	99,6);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	100,7);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	101,8);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	102,1);
+	insert into Orderss (OrderDate, CustomerID,ProductID)  Values (GetDate (),
+	103,2);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	104,3);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	105,10);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	106,4);
+	insert into Orderss (OrderDate, CustomerID, ProductID)  Values (GetDate (),
+	107,3);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	108,2);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	109,3);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	110,1);
+	insert into Orderss (OrderDate, CustomerID, ProductID) Values (GetDate (),
+	111,2);
+
+
+
+	
