@@ -1,0 +1,19 @@
+
+
+
+alter table orderss
+add foreign key (CustomerId) references Customers(Customer_Id);
+
+alter table orderss
+add foreign key (ProductId) references Product(ProductId);
+
+
+
+
+
+
+
+
+
+
+
