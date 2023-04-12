@@ -1,0 +1,59 @@
+
+
+Create table Customers
+(
+  Id int Primary Key identity(1,1),
+  FirstName varchar (50),
+  LastName varchar (50),
+  Age int
+  City varchar (50);
+
+)
+
+select * from Customers
+
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Tom','Fox', 22, 'Dublin');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('John','Hunt', 25, 'Dublin');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Terry','Jones', 20, 'Dublin');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Gerry','Burns', 21, 'Dublin');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Tim','Baker', 19, 'Belfast');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Manfred','Mann', 22, 'London');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Jack', 'Meadows', 32, 'London');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Leonie','Holohan', 25, 'Enniskillen');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Conn','Duffy', 60, 'Londonderry');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Alan','Sweeney', 70, 'Enniskillen');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Anne','OReilly', 22, 'Monaghan');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Kelly','Bates', 30, 'Tralee');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Muireann','Lynch', 22, 'Tralee');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Ronda','Davis', 19, 'Donegal');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Mairead','Looney', 40, 'Donegal');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Gerard','Daly', 60, 'Donegal');
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Janette','Hogan', 33, 'Enniskillen');
+
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Maria','McVeigh', 49, 'Londonderry');
+
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Sarah','Lee', 42, 'Belfast');
+
+insert into Customers
+(FirstName,LastName, [Age], City) Values('Beatrice','Black', 46, 'Belfast');
+
+
