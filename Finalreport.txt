@@ -10,7 +10,7 @@ makes it possible to make the efficiency of usng power at a maximum, increases a
 while reducing the exhalation of gas and carbon. Therefore an organisation can save energy
 
 
-Consultants Eimeara, Nikhil and Huthaifa were approached. Eimeara and Nikhil did work on the back end while Huthaifa set up a webiste.
+Consultants Eimeara, Nikhil and Huzaifa were approached. Eimeara and Nikhil did work on the Front end while Huzaifa set up a the back end of the webiste.
 The Green Database was set up with tables created and unneccessary data deleted. Mysql commands inserted data into the tables and populated them.
 A customer, product and orders tables were created. The constraints were the primary key, CustomerId in the Customr table
 OrderID in the Orders table and the product Id in the Products table the products table was joined to the orders table.
