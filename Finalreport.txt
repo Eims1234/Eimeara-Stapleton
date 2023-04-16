@@ -25,8 +25,9 @@ The python code was debugged and checked for errors.
 My thoughts and reflections about the module:
 At first I found it very difficult. I felt overwhelmed and too scared to try now I realize that was stupid as I was never going to learn. Little by little I practiced whenever I could which wasn't easy as I was working too. This was a very difficult assignment, many things I never heard of before like repositories but I am doing my best. At first I only did tables in mysql. Then something told me that was very little. I then did html and css pages and installed pycharm on Thursday. Right now I am having trouble pushing it. I did python programs such as guess the number where the organisation is offering a free car to give away in a competion,  calculated carbon emissions and created car as a class. I tested all my code - all solutions are for testing are courtesy of trychat gpt. For HTML and CSS I used w3schools as an inspiration. The code for Car as a class and the date   is courtesy of pynative exercises.  I also helped Huthaifa in identifying errors.All in all I enjoyed the lectures and found the lecturer most helpful. My pages were about the company, its history and mission and its products.
 
+
 Individual Contribution:
-Eimeara:
+Eimeara: I helped with the front end identifying errors,debugging and testing python code which was for the most part successful
 
 Nikhil:
 
